@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK\main">
+      <UniqueIdentifier>{d8f4f797-8308-4244-97d3-e58d253c1003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SDK">
+      <UniqueIdentifier>{f7898034-12a4-4662-84b2-4324f170f2b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SDK\SDKDev">
+      <UniqueIdentifier>{5b49027d-c692-4290-a177-b539dc964eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SDK\SDKApi">
+      <UniqueIdentifier>{03aeb8b6-e6c2-4110-9741-42728b1f0eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\json">
+      <UniqueIdentifier>{feb1a4fe-ace9-4292-ba6a-33951a49999c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stars">
+      <UniqueIdentifier>{aab339f3-c3ba-4e82-9651-cb03076a983b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stars\UI">
+      <UniqueIdentifier>{aac19d62-86c4-4349-8f8b-4b04f7dc17ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\main.cpp">
+      <Filter>SDK\main</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\info.cpp">
+      <Filter>SDK\SDK\SDKDev</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\cJSON.c">
+      <Filter>SDK\json</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CJsonObject.cpp">
+      <Filter>SDK\json</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\event.cpp">
+      <Filter>SDK\SDK\SDKDev</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\end.cpp">
+      <Filter>SDK\SDK\SDKDev</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\set.cpp">
+      <Filter>SDK\SDK\SDKDev</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\MyQQapi.cpp">
+      <Filter>SDK\SDK\SDKApi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\pch.h">
+      <Filter>SDK\main</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\cJSON.h">
+      <Filter>SDK\json</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CJsonObject.hpp">
+      <Filter>SDK\json</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\MyQQapi.h">
+      <Filter>SDK\SDK\SDKApi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\Source.def">
+      <Filter>SDK\main</Filter>
+    </None>
+  </ItemGroup>
+</Project>

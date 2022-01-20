@@ -1,0 +1,6 @@
+LIBRARY 
+EXPORTS
+MQ_Info
+MQ_Event
+MQ_End
+MQ_Set
